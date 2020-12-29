@@ -12,21 +12,21 @@ function App() {
   return (
     <div className="App">
       <Container>
-            <Navigation></Navigation>
-            <Router>
-              <Switch>
-                <Route exact path="/" component={Home}></Route>
-              </Switch>
-              <Switch>
-                <Route exact path="/projects" component={Projects}></Route>
-              </Switch>
-              <Switch>
-                <Route exact path="/about" component={About}></Route>
-              </Switch>
-              <Switch>
-                <Route exact path="/contact" component={Contact}></Route>
-              </Switch>
-            </Router>
+        <Navigation></Navigation>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
+          </Switch>
+          <Switch>
+            <Route exact path="/projects" component={Projects}></Route>
+          </Switch>
+          <Switch>
+            <Route exact path="/about" component={About}></Route>
+          </Switch>
+          <Switch>
+            <Route exact path="/contact" component={Contact}></Route>
+          </Switch>
+        </Router>
       </Container>
     </div>
   );
