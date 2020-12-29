@@ -9,7 +9,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function Navigation() {
     return (
-        <Nav fill variant="pills" className="justify-content-center">
+        <Nav justify variant="pills" className="justify-content-center">
             <Nav.Item>
                 <Nav.Link href="/">Nicole Kleinmann</Nav.Link>
             </Nav.Item>
