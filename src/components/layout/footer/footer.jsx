@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 function Footer() {
     return (
         <Row className="footer justify-content-center">
-            <footer className="m-3"><strong>Nicole's Portfolio | &copy; Copyright {new Date().getFullYear()}</strong></footer>
+            <footer className="m-3"><strong>NK's Portfolio | &copy; Copyright {new Date().getFullYear()}</strong></footer>
         </Row>
     )
 }

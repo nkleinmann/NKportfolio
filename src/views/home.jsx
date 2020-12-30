@@ -34,6 +34,11 @@ class Home extends React.Component {
                         />
                     </Col>
                 </Row>
+                <a href="/projects">
+                    <div className="mt-5 text-center">
+                        <i className="fas fa-chevron-down" />
+                    </div>
+                </a>
             </div>
         )
     }
