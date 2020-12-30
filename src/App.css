@@ -1,5 +1,17 @@
 * {
     /* font-family: 'Indie Flower', cursive; */
     font-family: 'Short Stack', cursive;
+}
+
+.outerContainer {
+    position: relative;
+    padding-bottom: 80px;
     font-size: 25px;
 }
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    font-size: 15px;
+} 

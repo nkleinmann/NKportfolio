@@ -6,13 +6,13 @@ import Home from "./views/home";
 import About from "./views/about";
 import Contact from "./views/contact";
 import Projects from "./views/projects";
+import Footer from "./components/layout/footer/footer";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Container>
-        <Navigation></Navigation>
+    <div className="App outerContainer">
+        <Navigation />
         <Router>
           <Switch>
             <Route exact path="/" component={Home}></Route>
@@ -27,7 +27,8 @@ function App() {
             <Route exact path="/contact" component={Contact}></Route>
           </Switch>
         </Router>
-      </Container>
+        <Footer />
+      
     </div>
   );
 }
