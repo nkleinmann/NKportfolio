@@ -11,6 +11,10 @@
 }
 
 /* Layout: Navigation and Footer */
+/* .nav {
+    background-color:  rgb(157, 157, 157);
+} */
+
 .navLink {
     color:black;
     font-size: 25px;
@@ -21,6 +25,7 @@
     bottom: 0px;
     width: 100vw;
     font-size: 15px;
+    /* background-color: rgb(157, 157, 157); */
 } 
 /* End layout */
 
@@ -33,23 +38,21 @@
 /* About Me */
 .aboutMe {
     font-size: 18px;
+    /* background-color: rgb(17, 20, 89);
+    color: white; */
 } 
 /* End About Me */
 
 /* Project Carousel */
-.projectImage {
-    max-height: 50vh;
-    max-width: 90%;
-    /* width: 40%; */
-}
 
 .carousel {
+    margin: 20px;
     padding: 50px;
     background-color: rgb(17, 20, 89);
 }
 
-.textBackground {
+/* .textBackground {
     background-color: rgb(186, 186, 186, .8);
-}
+} */
 
 /* End Carousel */

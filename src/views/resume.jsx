@@ -2,15 +2,15 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-function Contact() {
+function Resume() {
     return (
         <div className="animate__animated animate__slideInUp">
             <Row>
                 <Col>
-                    <p>contact</p>
+                    <p>resume</p>
                 </Col>
             </Row>
-            <a href="/">
+            <a href="/contact">
                 <div className="mt-5 text-center">
                     <i className="fas fa-chevron-down" />
                 </div>
@@ -19,4 +19,4 @@ function Contact() {
     )
 }
 
-export default Contact;
+export default Resume;

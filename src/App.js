@@ -5,6 +5,7 @@ import Home from "./views/home";
 import About from "./views/about";
 import Contact from "./views/contact";
 import Projects from "./views/projects";
+import Resume from "./views/resume";
 import Footer from "./components/layout/footer/footer";
 import './App.css';
 
@@ -21,6 +22,9 @@ function App() {
           </Switch>
           <Switch>
             <Route exact path="/about" component={About}></Route>
+          </Switch>
+          <Switch>
+            <Route exact path="/resume" component={Resume}></Route>
           </Switch>
           <Switch>
             <Route exact path="/contact" component={Contact}></Route>
