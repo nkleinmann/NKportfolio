@@ -7,20 +7,14 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function Navigation() {
     return (
-        <Nav justify variant="pills" className="justify-content-center">
+        <Nav variant="light" className="justify-content-center nav">
             <Nav.Item>
-                <Nav.Link href="/">Nicole Kleinmann</Nav.Link>
+                <Nav.Link className="navLink" href="/">Nicole Kleinmann</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/projects">Current Projects</Nav.Link>
+                <Nav.Link className="navLink" href="/projects">Current Projects</Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item>
-                <Nav.Link href="/about">About</Nav.Link>
-            </Nav.Item> */}
-            {/* <Nav.Item>
-                <Nav.Link href="/contact">Contact</Nav.Link>
-            </Nav.Item> */}
-            <NavDropdown title="Info" id="nav-dropdown">
+            <NavDropdown title={<span className="navLink">Info</span>} id="nav-dropdown">
                 <NavDropdown.Item href="/about">About Me</NavDropdown.Item>
                 <NavDropdown.Item href="#">Resume</NavDropdown.Item>
                 <NavDropdown.Divider />

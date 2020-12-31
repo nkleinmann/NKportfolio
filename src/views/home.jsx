@@ -30,7 +30,7 @@ class Home extends React.Component {
                             steps={['Full Stack Developer', 2000, 'Math Content and Curriculum Developer', 2000, 'Runner and Outdoor Enthusiast', 2000]}
                             loop={Infinity}
                             wrapper="p"
-                            className="text-center"
+                            className="text-center typingText"
                         />
                     </Col>
                 </Row>

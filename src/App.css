@@ -1,11 +1,17 @@
 * {
     /* font-family: 'Indie Flower', cursive; */
     font-family: 'Short Stack', cursive;
+    /* background-color: rgb(143, 168, 220); */
 }
 
 .outerContainer {
     position: relative;
     padding-bottom: 80px;
+    /* font-size: 25px; */
+}
+
+.navLink {
+    color:black;
     font-size: 25px;
 }
 
@@ -16,6 +22,25 @@
     font-size: 15px;
 } 
 
+.typingText {
+    font-size: 20px;
+}
+
 .aboutMe {
     font-size: 18px;
 } 
+
+/* Projects */
+div.projectBackground {
+    background-color: rgb(85, 124, 240, .95);
+}
+
+.projectImage {
+    /* max-height: 50vh; */
+    max-width: 90%;
+    /* width: 40%; */
+}
+
+div.projectText{
+    font-size: 10px;
+}
