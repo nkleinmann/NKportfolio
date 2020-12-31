@@ -10,6 +10,7 @@
     /* font-size: 25px; */
 }
 
+/* Layout: Navigation and Footer */
 .navLink {
     color:black;
     font-size: 25px;
@@ -21,30 +22,34 @@
     width: 100vw;
     font-size: 15px;
 } 
+/* End layout */
 
+/* Home View */
 .typingText {
     font-size: 20px;
 }
+/* End Home View */
 
+/* About Me */
 .aboutMe {
     font-size: 18px;
 } 
+/* End About Me */
 
-/* Projects */
-div.projectBackground {
-    background-color: rgb(85, 124, 240, .95);
-}
-
+/* Project Carousel */
 .projectImage {
-    /* max-height: 50vh; */
+    max-height: 50vh;
     max-width: 90%;
     /* width: 40%; */
 }
 
-div.projectText{
-    font-size: 10px;
+.carousel {
+    padding: 50px;
+    background-color: rgb(17, 20, 89);
 }
 
-.carousel {
-    padding-top: 50px;
+.textBackground {
+    background-color: rgb(186, 186, 186, .8);
 }
+
+/* End Carousel */
