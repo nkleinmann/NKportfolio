@@ -7,7 +7,7 @@ const projectInfo = [
         deployedSite: "https://while-youre-there.herokuapp.com/",
         githubRepo: "https://github.com/nkleinmann/While-Youre-There",
         image: WhileYoureThere,
-        description: "A shopping list app designed so that desired shopping items are bought in one trip (now more important than ever with Covid-19, ensuring efficient shopping and helping high risk individuals receive all shopping needs).",
+        description: "A shopping list app designed for groups to be efficient shoppers (now more important than ever with Covid-19).",
     },
     {
         title: "Team Builder",

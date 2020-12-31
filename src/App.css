@@ -44,3 +44,7 @@ div.projectBackground {
 div.projectText{
     font-size: 10px;
 }
+
+.carousel {
+    padding-top: 50px;
+}
