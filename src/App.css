@@ -45,6 +45,10 @@
 
 /* Project Carousel */
 
+Button.cardButton {
+    background-color: #a9d7a9;
+}
+
 .carousel {
     margin: 20px;
     padding: 50px;

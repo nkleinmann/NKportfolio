@@ -1,8 +1,10 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import projectInfo from "../components/projects/projectInfo";
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -11,14 +13,20 @@ function Projects() {
     // const userSelect = createRef();
 
     return (
-        <div className="animate__animated animate__slideInUp">
+        <div className="animate__animated animate__slideInUp mt-5">
             <Row className="justify-content-center">
                 <Carousel className="carousel rounded">
                     {projectInfo.map((project) => {
-                        return (      
+                        return (
                             <Carousel.Item key={project.title} className="text-center">
                                 <Card style={{ width: '28rem' }}>
                                     <Card.Img className="projectImage" src={project.image} />
+                                    <Row>
+                                    <Col>
+                                        <Button className="cardButton m-3" href={project.deployedSite} target="_blank">Deployed App</Button>
+                                        <Button className="cardButton m-3" href={project.githubRepo} target="_blank">Github Repository</Button>
+                                    </Col>
+                                </Row>
                                     <Card.Body>
                                         <Card.Title>{project.title}</Card.Title>
                                         <Card.Text>
@@ -29,7 +37,6 @@ function Projects() {
                                             <br />
                                             {project.techUsed}
                                         </Card.Text>
-
                                     </Card.Body>
                                 </Card>
                             </Carousel.Item>

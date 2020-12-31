@@ -1,13 +1,10 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Ocean from "../images/Ocean.jpg";
-import Image from "react-bootstrap/Image";
 
 function About() {
     return (
         <div className="mt-5 animate__animated animate__slideInUp">
-            {/* <Image src={Ocean} width="100%" height="70%" /> */}
             <Row>
                 <Col sm={12} md={6} className="m-3">
                     <p>Skills:</p>
@@ -15,7 +12,7 @@ function About() {
                         <li>React</li>
                     </ul>
                 </Col>
-                <Col sm={12} md={4} className="m-3 text-center aboutMe">
+                <Col sm={12} md={4} className="m-3 text-center aboutMe align-middle">
                     <p>
                         Passionate about web development, math and computer science education, and being active.
                     </p>

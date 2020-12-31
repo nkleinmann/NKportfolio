@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 
 function Resume() {
     return (
-        <div className="animate__animated animate__slideInUp">
+        <div className="mt-5 animate__animated animate__slideInUp">
             <Row>
                 <Col>
                     <p>resume</p>

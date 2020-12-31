@@ -16,7 +16,7 @@ function Navigation() {
             </Nav.Item>
             <NavDropdown title={<span className="navLink">Info</span>} id="nav-dropdown">
                 <NavDropdown.Item href="/about">About Me</NavDropdown.Item>
-                <NavDropdown.Item href="/resume">Resume and Featured Projects</NavDropdown.Item>
+                <NavDropdown.Item href="/resume">Resume</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="/contact">Contact Info</NavDropdown.Item>
             </NavDropdown>
