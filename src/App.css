@@ -38,13 +38,15 @@
 /* About Me */
 .aboutMe {
     font-size: 18px;
-    /* background-color: rgb(17, 20, 89);
-    color: white; */
 } 
+
+.skills {
+    background-color: rgb(17, 20, 89);
+    color: white;
+}
 /* End About Me */
 
 /* Project Carousel */
-
 .cardButton {
     background-color: rgb(17, 20, 89);
 }
@@ -54,15 +56,10 @@
     padding: 50px;
     background-color: rgb(17, 20, 89);
 }
-
-/* .textBackground {
-    background-color: rgb(186, 186, 186, .8);
-} */
-
 /* End Carousel */
 
 /* List of projects */
-
 .projImage {
     width: 90%;
 }
+/* End list of projects */
