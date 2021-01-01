@@ -45,8 +45,8 @@
 
 /* Project Carousel */
 
-Button.cardButton {
-    background-color: #a9d7a9;
+.cardButton {
+    background-color: rgb(17, 20, 89);
 }
 
 .carousel {
@@ -60,3 +60,9 @@ Button.cardButton {
 } */
 
 /* End Carousel */
+
+/* List of projects */
+
+.projImage {
+    width: 90%;
+}

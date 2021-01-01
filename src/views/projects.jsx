@@ -1,16 +1,16 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import projectInfo from "../components/projects/projectInfo";
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
+import projectInfo from "../components/projects/projectInfo";
+import ListOfProjects from "../components/projects/listOfProjects";
 
 
 
 function Projects() {
-    // console.log(projectInfo)
-    // const userSelect = createRef();
 
     return (
         <div className="animate__animated animate__slideInUp mt-5">
@@ -28,7 +28,7 @@ function Projects() {
                                     </Col>
                                 </Row>
                                     <Card.Body>
-                                        <Card.Title>{project.title}</Card.Title>
+                                        <Card.Title><strong>{project.title}</strong></Card.Title>
                                         <Card.Text>
                                             {project.description}
                                         </Card.Text>
@@ -44,6 +44,9 @@ function Projects() {
                     })}
                 </Carousel>
             </Row >
+
+           <ListOfProjects />
+
             <a href="/about">
                 <div className="mt-5 text-center">
                     <i className="fas fa-chevron-down" />

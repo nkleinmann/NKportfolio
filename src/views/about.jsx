@@ -23,7 +23,7 @@ function About() {
 
 
 
-            <a href="/resume">
+            <a href="/contact">
                 <div className="mt-5 text-center">
                     <i className="fas fa-chevron-down" />
                 </div>

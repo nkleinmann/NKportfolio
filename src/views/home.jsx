@@ -2,8 +2,7 @@ import React from "react";
 import Typical from 'react-typical';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import NKphoto from "../images/NKphoto.jpg";
-import NKprofile2 from "../images/NKprofile2.png";
+import NKprofile2 from "../assets/images/NKprofile2.png";
 import Image from "react-bootstrap/Image";
 class Home extends React.Component {
     render() {
