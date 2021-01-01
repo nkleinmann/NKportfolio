@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import Image from 'react-bootstrap/Image';
 import projectInfo from "../components/projects/projectInfo";
 import ListOfProjects from "../components/projects/listOfProjects";
 
