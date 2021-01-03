@@ -1,7 +1,6 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import NicoleKleinmannResume from "../assets/docs/NicoleKleinmannResume.docx.pdf";
 
 
 function Contact() {
