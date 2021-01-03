@@ -21,7 +21,6 @@ function Contact() {
                 <Col>
                     <a href="https://github.com/nkleinmann" target="_blank" rel="noreferrer"><i className="fab fa-github fa-4x m-3"></i></a>
                     <a href="https://www.linkedin.com/in/nicolekleinmann/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in fa-4x m-3"></i></a>
-                    <a href={NicoleKleinmannResume} target="_blank" rel="noreferrer"><i className="far fa-file fa-4x m-3"></i></a>
                 </Col>
             </Row>
             <Row>
