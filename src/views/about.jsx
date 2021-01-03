@@ -19,7 +19,7 @@ function About() {
                     <p>
                         Passionate about web development, math and computer science education, and being active.
                     </p>
-                    <p>Recently completed a coding bootcamp in full stack web development. Currently a Math Curriculum and Content Developer at <a href="https://mathspace.co/us" target="_blank" rel="noreferrer">Mathspace</a>.
+                    <p>Recently completed a coding bootcamp in full stack web development. Currently a Math Curriculum and Content Developer.
                     </p>
                 </Col>
             </Row>
