@@ -33,6 +33,15 @@
 .typingText {
     font-size: 20px;
 }
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+
+.profilePhoto {
+    align-self: center;
+}
+
 /* End Home View */
 
 /* About Me */
@@ -44,22 +53,30 @@
     background-color: rgb(17, 20, 89);
     color: white;
 }
+
 /* End About Me */
 
 /* Project Carousel */
+
 .cardButton {
     background-color: rgb(17, 20, 89);
 }
+
+/* .projectImage {
+    width: 90%;
+    align-self: center;
+} */
 
 .carousel {
     margin: 20px;
     padding: 50px;
     background-color: rgb(17, 20, 89);
+    width: 28rem;
 }
 /* End Carousel */
 
 /* List of projects */
 .projImage {
-    width: 90%;
+    width: 70%;
 }
 /* End list of projects */

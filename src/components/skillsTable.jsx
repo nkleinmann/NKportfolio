@@ -25,12 +25,12 @@ function SkillsTable() {
             </Row>
             <Row>
                 <Col>
-                    Frameworks <i class="fas fa-code-branch"></i>
+                    Frameworks <i className="fas fa-code-branch"></i>
                     <br />
                     <p className="mt-3">React, Express, Bootstrap, Materialize</p>
                 </Col>
                 <Col>
-                    Other Skills <i class="far fa-handshake"></i>
+                    Other Skills <i className="far fa-handshake"></i>
                     <br />
                     <p className="mt-3">Teamwork, Problem Solving, Communication, Creative Thinking</p>
                 </Col>

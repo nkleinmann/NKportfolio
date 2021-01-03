@@ -1,9 +1,9 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+// import Col from "react-bootstrap/Col";
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import projectInfo from "../components/projects/projectInfo";
 import ListOfProjects from "../components/projects/listOfProjects";
 
@@ -18,24 +18,24 @@ function Projects() {
                     {projectInfo.map((project) => {
                         return (
                             <Carousel.Item key={project.title} className="text-center">
-                                <Card style={{ width: '28rem' }}>
+                                <Card className="cardProjects">
                                     <Card.Img className="projectImage" src={project.image} />
-                                    <Row>
-                                    <Col>
-                                        <Button className="cardButton m-3" href={project.deployedSite} target="_blank">Deployed App</Button>
-                                        <Button className="cardButton m-3" href={project.githubRepo} target="_blank">Github Repository</Button>
-                                    </Col>
-                                </Row>
+                                    {/* <Row>
+                                        <Col>
+                                            <Button className="cardButton m-3" href={project.deployedSite} target="_blank">Deployed App</Button>
+                                            <Button className="cardButton m-3" href={project.githubRepo} target="_blank">Github Repository</Button>
+                                        </Col>
+                                    </Row> */}
                                     <Card.Body>
                                         <Card.Title><strong>{project.title}</strong></Card.Title>
                                         <Card.Text>
                                             {project.description}
                                         </Card.Text>
-                                        <Card.Text>
-                                            Technologies Used:
-                                            <br />
-                                            {project.techUsed}
-                                        </Card.Text>
+                                        {/* <Card.Text> */}
+                                        {/* Technologies Used: */}
+                                        {/* <br /> */}
+                                        {/* {project.techUsed} */}
+                                        {/* </Card.Text> */}
                                     </Card.Body>
                                 </Card>
                             </Carousel.Item>
@@ -44,13 +44,13 @@ function Projects() {
                 </Carousel>
             </Row >
 
-           <ListOfProjects />
+            <ListOfProjects />
 
-            <a href="/about">
+            {/* <a href="/contact">
                 <div className="mt-5 text-center">
                     <i className="fas fa-chevron-down" />
                 </div>
-            </a>
+            </a> */}
         </div >
     )
 }

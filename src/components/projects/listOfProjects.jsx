@@ -12,10 +12,10 @@ function ListOfProjects() {
                 <Col className="text-center">
                     {projectInfo.map((project) => {
                         return (
-                            <div className="mt-5">
+                            <div className="mt-5" key={project.key}>
                                 <Row>
                                     <Col className="m-3">
-                                        <h3 key={project.title} className="text-center"> <strong>{project.title}</strong></h3>
+                                        <h3 className="text-center"> <strong>{project.title}</strong></h3>
                                     </Col>
                                 </Row>
                                 <Row className="d-flex justify-content-center">

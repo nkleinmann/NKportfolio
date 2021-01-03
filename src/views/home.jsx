@@ -19,22 +19,22 @@ class Home extends React.Component {
                     </Col>
                 </Row>
                 <Row>
-                    {/* <Col sm={4} className="ml-3 text-center">
-                        <Image roundedCircle src={NKprofile2} alt="Headshot of Nicole" className="animate__animated animate__rollIn" />
+                    {/* <Col sm={6} className="ml-3 text-center">
+                        <Image roundedCircle src={NKprofile2} alt="Headshot of Nicole" className="animate__animated animate__rollIn profilePhoto" />
                     </Col> */}
                     <Col className="mt-3">
 
                         {/* Resources: https://www.npmjs.com/package/react-typical, https://www.producthunt.com/posts/react-typical */}
                         <Typical
                             steps={['Full Stack Developer', 2000, 'Math Content and Curriculum Developer', 2000, 'Runner and Outdoor Enthusiast', 2000]}
-                            loop={Infinity}
+                            loop={3}
                             wrapper="p"
                             className="text-center typingText"
                         />
                     </Col>
                 </Row>
-                <a href="/projects">
-                    <div className="mt-5 text-center">
+                <a href="/about">
+                    <div className="mt-5 text-center animate__animated animate__bounce animate__repeat-3">
                         <i className="fas fa-chevron-down" />
                     </div>
                 </a>

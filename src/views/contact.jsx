@@ -7,7 +7,12 @@ import NicoleKleinmannResume from "../assets/docs/NicoleKleinmannResume.docx.pdf
 function Contact() {
     return (
         <div className="animate__animated animate__slideInUp text-center mt-5">
-            <Row>
+            {/* <a href="/about">
+                <div className="mt-5 text-center">
+                    <i className="fas fa-chevron-up" />
+                </div>
+            </a> */}
+            <Row className="mt-5">
                 <Col>
                     <h3><strong>Contact Info:</strong></h3>
                 </Col>
@@ -21,16 +26,16 @@ function Contact() {
             </Row>
             <Row>
                 <Col>
-                <p>
-                Please contact me with any questions and/or ideas for collaboration!
+                    <p>
+                        Please contact me with any questions and/or ideas for collaboration!
                 </p>
                 </Col>
             </Row>
-            <a href="/">
+            {/* <a href="/">
                 <div className="mt-5 text-center">
                     <i className="fas fa-chevron-down" />
                 </div>
-            </a>
+            </a> */}
         </div>
     )
 }

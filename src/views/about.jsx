@@ -6,6 +6,11 @@ import SkillsTable from "../components/skillsTable";
 function About() {
     return (
         <div className="mt-5 animate__animated animate__slideInUp">
+            <a href="/">
+                <div className="mt-5 text-center">
+                    <i className="fas fa-chevron-up" />
+                </div>
+            </a>
             <Row className="d-flex justify-content-center">
                 <Col sm={12} md={6} className="m-3 text-center">
                     <SkillsTable />
@@ -18,11 +23,6 @@ function About() {
                     </p>
                 </Col>
             </Row>
-            <a href="/contact">
-                <div className="mt-5 text-center">
-                    <i className="fas fa-chevron-down" />
-                </div>
-            </a>
         </div>
     )
 }
