@@ -13,9 +13,7 @@ Portfolio for current projects. Check out my portfolio below!
 ![2](https://user-images.githubusercontent.com/65608809/103494626-bac1d400-4e05-11eb-9607-a64b418293fb.jpg)
               
 ## Questions:
-Email me with any questions!
 Email: nekleinmann@gmail.com
-
 GitHub: 
 [nkleinmann](https://github.com/nkleinmann)
 ## License:
