@@ -14,8 +14,9 @@ Portfolio for current projects. Check out my portfolio below!
               
 ## Questions:
 Email: nekleinmann@gmail.com
-GitHub: 
-[nkleinmann](https://github.com/nkleinmann)
+
+
+GitHub: [nkleinmann](https://github.com/nkleinmann)
 ## License:
   ![MIT](https://img.shields.io/badge/license-MIT-blue)
   
