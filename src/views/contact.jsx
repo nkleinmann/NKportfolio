@@ -25,7 +25,7 @@ function Contact() {
             <Row>
                 <Col>
                     <p>
-                        Please contact me with any questions and/or ideas for collaboration!
+                        Please contact me with any questions and/or ideas for collaboration! Currently working on projects in React.
                 </p>
                 </Col>
             </Row>
