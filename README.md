@@ -1,5 +1,7 @@
 # Nicole Kleinmann's Portfolio
-Portfolio for current projects. Check out my [portfolio](https://www.nicolekleinmann.com)!
+Portfolio for current projects. 
+
+Check out my [portfolio](https://www.nicolekleinmann.com)!
 
 ## Table of Contents:
 1. [License](#license)
