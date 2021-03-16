@@ -17,7 +17,7 @@ function About() {
                 </Col>
                 <Col sm={12} md={4} className="mt-5 text-center aboutMe align-middle">
                     <p>
-                        Passionate about being active, web development, and math and computer science education.
+                        Passionate about math and computer science education, web development, and being active.
                     </p>
                     <p>Recently completed a coding bootcamp in full stack web development. Currently a Math Curriculum and Content Developer.
                     </p>
