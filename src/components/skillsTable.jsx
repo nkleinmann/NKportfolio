@@ -14,13 +14,13 @@ function SkillsTable() {
                 <Col >
                     Languages <i className="fa fa-code fa-1x"></i>
                     <br />
-                    <p className="mt-3">HTML, CSS, JavaScript, JSX</p>
+                    <p className="mt-3">HTML, CSS, JavaScript, Python, JSX</p>
                     
                 </Col>
                 <Col>
                     Tools <i className="fa fa-terminal fa-1x"></i>
                     <br />
-                    <p className="mt-3">MongoDB, MySQL, Git, Github</p>
+                    <p className="mt-3">MongoDB, MySQL, PostgreSQL, Git, Github</p>
                 </Col>
             </Row>
             <Row>

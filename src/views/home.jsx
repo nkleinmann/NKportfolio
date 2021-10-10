@@ -19,14 +19,11 @@ class Home extends React.Component {
                     </Col>
                 </Row>
                 <Row>
-                    {/* <Col sm={6} className="ml-3 text-center">
-                        <Image roundedCircle src={NKprofile2} alt="Headshot of Nicole" className="animate__animated animate__rollIn profilePhoto" />
-                    </Col> */}
                     <Col className="mt-3">
 
                         {/* Resources: https://www.npmjs.com/package/react-typical, https://www.producthunt.com/posts/react-typical */}
                         <Typical
-                            steps={['Full Stack Developer', 2000, 'Math Curriculum and Content Developer', 2000, 'Runner and Outdoor Enthusiast', 2000]}
+                            steps={['Full Stack Developer', 2000, 'Curriculum Engineer', 2000, 'Runner and Outdoor Enthusiast', 2000]}
                             loop={3}
                             wrapper="p"
                             className="text-center typingText"
