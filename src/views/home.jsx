@@ -2,7 +2,8 @@ import React from "react";
 import Typical from 'react-typical';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import NKprofile2 from "../assets/images/NKprofile2.png";
+// import NKprofile2 from "../assets/images/NKprofile2.png";
+import NKprofile from "../assets/images/NKProfile.png";
 import Image from "react-bootstrap/Image";
 class Home extends React.Component {
     render() {
@@ -13,9 +14,9 @@ class Home extends React.Component {
                         <h1 className="text-center mt-5 animate__animated animate__backInLeft">Hi, I'm Nicole</h1>
                     </Col>
                 </Row>
-                <Row>
-                    <Col className="text-center mt-3">
-                        <Image roundedCircle src={NKprofile2} alt="Headshot of Nicole" className="animate__animated animate__rollIn" />
+                <Row className="justify-content-center">
+                    <Col md={4} sm={10} className="text-center mt-3">
+                        <Image roundedCircle src={NKprofile} width="80%" height="100%" alt="Headshot of Nicole" className="animate__animated animate__rollIn m-2" />
                     </Col>
                 </Row>
                 <Row>
@@ -26,7 +27,7 @@ class Home extends React.Component {
                             steps={['Full Stack Developer', 2000, 'Curriculum Engineer', 2000, 'Runner and Outdoor Enthusiast', 2000]}
                             loop={3}
                             wrapper="p"
-                            className="text-center typingText"
+                            className="text-center typingText m-4"
                         />
                     </Col>
                 </Row>
