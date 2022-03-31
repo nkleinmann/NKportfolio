@@ -9,7 +9,7 @@ function Navigation() {
     return (
         <Nav variant="light" className="justify-content-center nav">
             <Nav.Item>
-                <Nav.Link className="navLink" href="/">Nicole Kleinmann</Nav.Link>
+                <Nav.Link className="navLink" href="/">Nicole Bertrand</Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link className="navLink" href="/projects">Recent Projects</Nav.Link>

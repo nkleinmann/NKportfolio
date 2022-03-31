@@ -1,4 +1,4 @@
-# Nicole Kleinmann's Portfolio
+# Nicole Bertrand's Portfolio
 Portfolio for current projects. 
 
 Check out my [portfolio](https://www.nicolekleinmann.com)!
