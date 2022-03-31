@@ -15,7 +15,7 @@ function About() {
         <Col sm={12} md={8} className="mt-5 text-center aboutMe align-middle">
           <p>
             Passionate about computer science and math education as well as
-            being active. Currently a Curriculum Engineer.
+            being active. 
           </p>
         </Col>
       </Row>
@@ -27,7 +27,7 @@ function About() {
       <Row className="justify-content-center">
         <Col md={8} className="m-3 text-center">
           <p>
-            Recently ran the Berin Marathon. Goal is to run Sydney, London, Chicago, or Tokyo next!
+            Recently ran the Berin Marathon. Running Chicago this October for the non-profit Bottom Line!
           </p>
         </Col>
       </Row>

@@ -24,7 +24,7 @@ class Home extends React.Component {
 
                         {/* Resources: https://www.npmjs.com/package/react-typical, https://www.producthunt.com/posts/react-typical */}
                         <Typical
-                            steps={['Full Stack Developer', 2000, 'Curriculum Engineer', 2000, 'Runner and Outdoor Enthusiast', 2000]}
+                            steps={['Full Stack Developer', 2000, 'Runner and Outdoor Enthusiast', 2000, 'Curriculum Engineer and Teacher', 2000]}
                             loop={3}
                             wrapper="p"
                             className="text-center typingText m-4"
