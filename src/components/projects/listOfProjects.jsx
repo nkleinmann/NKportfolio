@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 
 function ListOfProjects() {
     return (
-        <div className="mt-5 animate__animated animate__slideInUp">
+        <div className="animate__animated animate__slideInUp">
             <Row>
                 <Col className="text-center">
                     {projectInfo.map((project) => {

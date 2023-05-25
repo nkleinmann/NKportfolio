@@ -20,7 +20,7 @@ function SkillsTable() {
                 <Col>
                     Tools <i className="fa fa-terminal fa-1x"></i>
                     <br />
-                    <p className="mt-3">MongoDB, MySQL, PostgreSQL, Git, Github</p>
+                    <p className="mt-3">MongoDB, MySQL, PostgreSQL, Git, Github, AWS</p>
                 </Col>
             </Row>
             <Row>

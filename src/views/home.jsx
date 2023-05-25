@@ -11,12 +11,14 @@ class Home extends React.Component {
             <div>
                 <Row>
                     <Col>
-                        <h1 className="text-center mt-5 animate__animated animate__backInLeft">Hi, I'm Nicole</h1>
+                        <h1 className="text-center mt-5 animate__animated animate__slideInDown">Hi, I'm Nicole</h1>
+                        {/* <h1 className="text-center mt-5 animate__animated animate__backInLeft">Hi, I'm Nicole</h1> */}
                     </Col>
                 </Row>
                 <Row className="justify-content-center">
                     <Col md={4} sm={10} className="text-center mt-3">
-                        <Image roundedCircle src={NKprofile} width="80%" height="100%" alt="Headshot of Nicole" className="animate__animated animate__rollIn m-2" />
+                        <Image roundedCircle src={NKprofile} width="80%" height="100%" alt="Headshot of Nicole" className="m-2 animate__animated animate__slideInDown" />
+                        {/* <Image roundedCircle src={NKprofile} width="80%" height="100%" alt="Headshot of Nicole" className="animate__animated animate__rollIn m-2" /> */}
                     </Col>
                 </Row>
                 <Row>
