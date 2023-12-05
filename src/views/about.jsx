@@ -27,7 +27,7 @@ function About() {
       <Row className="justify-content-center">
         <Col md={8} className="m-3 text-center">
           <p>
-            Recently ran the Chicago Marathon for the non-profit <a href="https://www.bottomline.org/">Bottom Line</a>. Running the Sydney, Australia marathon this September!
+            Recently ran the Sydney, Australia marathon and loved it!
           </p>
         </Col>
       </Row>
