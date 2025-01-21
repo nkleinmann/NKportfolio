@@ -42,13 +42,25 @@
     align-self: center;
 }
 
-.aboutText {
-    padding-top: 30px;
-}
 
 /* End Home View */
 
 /* About Me */
+.aboutText {
+    padding-top: 30px;
+}
+
+.aboutPhoto {
+    width: 80%;
+    border-radius: 2%;
+}
+
+.aboutPhotoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .aboutMe {
     font-size: 18px;
 } 
@@ -82,5 +94,10 @@
 /* List of projects */
 .projImage {
     width: 70%;
+}
+
+.projectHeader {
+    font-weight: 800;
+    color: rgb(17, 20, 89);
 }
 /* End list of projects */
