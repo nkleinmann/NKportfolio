@@ -27,7 +27,7 @@ function About() {
       <Row className="justify-content-center">
         <Col md={8} className="m-3 text-center">
           <p>
-            Recently ran the Sydney, Australia marathon and loved it!
+            Recently ran the Sydney, Australia marathon and loved it! Life long goal is to run all the world major marathons. 4 down and 2 more to go (well now 3 because there are recently 7 world majors instead of 6).
           </p>
         </Col>
       </Row>

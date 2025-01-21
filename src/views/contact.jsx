@@ -34,7 +34,7 @@ function Contact() {
         <Col md={8} className="text-center">
           <p>
             Please contact me with any questions and/or ideas for collaboration!
-            Currently working on projects in React.
+            Currently working on projects in React and NextJS. Professionally, currently working with React, TypeScript, NodeJS, AWS, and C#.
           </p>
         </Col>
       </Row>

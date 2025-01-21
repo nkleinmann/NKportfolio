@@ -42,6 +42,10 @@
     align-self: center;
 }
 
+.aboutText {
+    padding-top: 30px;
+}
+
 /* End Home View */
 
 /* About Me */

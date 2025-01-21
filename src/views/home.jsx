@@ -1,9 +1,8 @@
 import React from "react";
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import NKprofile2 from "../assets/images/NKprofile2.png";
-import NKprofile from "../assets/images/NKProfile.png";
+import NKprofile from "../assets/images/NBProfile.png";
 import Image from "react-bootstrap/Image";
 class Home extends React.Component {
     render() {
@@ -12,25 +11,23 @@ class Home extends React.Component {
                 <Row>
                     <Col>
                         <h1 className="text-center mt-5 animate__animated animate__slideInDown">Hi, I'm Nicole</h1>
-                        {/* <h1 className="text-center mt-5 animate__animated animate__backInLeft">Hi, I'm Nicole</h1> */}
                     </Col>
                 </Row>
                 <Row className="justify-content-center">
                     <Col md={4} sm={10} className="text-center mt-3">
                         <Image roundedCircle src={NKprofile} width="80%" height="100%" alt="Headshot of Nicole" className="m-2 animate__animated animate__slideInDown" />
-                        {/* <Image roundedCircle src={NKprofile} width="80%" height="100%" alt="Headshot of Nicole" className="animate__animated animate__rollIn m-2" /> */}
                     </Col>
                 </Row>
-                <Row>
-                    <Col className="mt-3">
-
+                <Row className="justify-content-center">
+                    <Col md={4} xs={10} className="mt-3">
+                        <p className="text-center aboutText">Software Developer, Runner and Outdoor Enthusiast, New Mom, Teacher</p>
                         {/* Resources: https://www.npmjs.com/package/react-typical, https://www.producthunt.com/posts/react-typical */}
-                        <Typical
+                        {/* <Typical
                             steps={['Full Stack Developer', 2000, 'Runner and Outdoor Enthusiast', 2000, 'Curriculum Engineer and Teacher', 2000]}
                             loop={3}
                             wrapper="p"
                             className="text-center typingText m-4"
-                        />
+                        /> */}
                     </Col>
                 </Row>
                 <a href="/about">
