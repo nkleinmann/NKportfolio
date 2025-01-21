@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import SkillsTable from "../components/skillsTable";
 import NBAndAlpine from "../assets/images/NBAndAlpine.jpeg";
 import NBAndGrey from "../assets/images/NBAndGrey.png";
-import Family from "../assets/images/Family.png";
+// import Family from "../assets/images/Family.png";
 
 function About() {
   return (
