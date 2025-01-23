@@ -19,7 +19,7 @@ function About() {
         <Col sm={12} md={8} className="mt-5 text-center aboutMe align-middle">
           <p>
             Passionate about computer science and math education as well as
-            being active. Proud new Mom and dog Mom.
+            being active. Proud new Mom and dog Mom. 
           </p>
         </Col>
       </Row>
