@@ -2,7 +2,8 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SkillsTable from "../components/skillsTable";
-import NBAndAlpine from "../assets/images/NBAndAlpine.jpeg";
+// import NBAndAlpine from "../assets/images/NBAndAlpine.jpeg";
+import Alpine from "../assets/images/Alpine.jpeg";
 import NBAndGrey from "../assets/images/NBAndGrey.png";
 // import Family from "../assets/images/Family.png";
 
@@ -41,7 +42,7 @@ function About() {
       </Row>
       <Row className="justify-content-center">
         <Col md={3} sm={10} className="m-3 text-center flex aboutPhotoContainer">
-          <img src={NBAndAlpine} alt="woman and dog on the water" className="aboutPhoto"></img>
+          <img src={Alpine} alt="dog on the water" className="aboutPhoto"></img>
         </Col>
         {/* <Col md={3} sm={10} className="m-3 text-center flex aboutPhotoContainer">
           <img src={Family} alt="mom and dad sitting with baby" className="aboutPhoto"></img>

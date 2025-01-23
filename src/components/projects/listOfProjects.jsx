@@ -68,9 +68,6 @@ function ListOfProjects() {
                                         </Col>
                                     </Row>
                                     <Row className="d-flex justify-content-center">
-                                        <Col md={6} sm={12}>
-                                            <Image className="projImage" src={project.image} alt={project.title} />
-                                        </Col>
                                         <Col md={3} sm={12}>
                                             <Row>
                                                 <Col>
@@ -82,6 +79,9 @@ function ListOfProjects() {
                                                     <Button className="cardButton m-3" href={project.githubRepo} target="_blank">Github Repository</Button>
                                                 </Col>
                                             </Row>
+                                        </Col>
+                                        <Col md={6} sm={12}>
+                                            <Image className="projImage" src={project.image} alt={project.title} />
                                         </Col>
                                     </Row>
                                     <Row>
