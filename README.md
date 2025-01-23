@@ -16,6 +16,7 @@ Check out my [portfolio](https://www.nicolekleinmann.com)!
 - React, React Bootstrap
 - Font Awesome, Animate CSS
 - Github
+- AWS for deployment (Route 53 and Amplify)
               
 ## Questions:
 Email: nekleinmann@gmail.com
