@@ -40,17 +40,17 @@ function About() {
           <img src={NBAndGrey} alt="mom sitting with baby" className="aboutPhoto"></img>
         </Col>
       </Row>
-      <Row className="justify-content-center">
-        <Col md={3} sm={10} className="m-3 text-center flex aboutPhotoContainer">
+      {/* <Row className="justify-content-center"> */}
+        {/* <Col md={3} sm={10} className="m-3 text-center flex aboutPhotoContainer">
           <img src={Alpine} alt="dog on the water" className="aboutPhoto"></img>
-        </Col>
+        </Col> */}
         {/* <Col md={3} sm={10} className="m-3 text-center flex aboutPhotoContainer">
           <img src={Family} alt="mom and dad sitting with baby" className="aboutPhoto"></img>
         </Col> */}
         {/* <Col md={3} sm={10} className="m-3 text-center flex aboutPhotoContainer">
           <img src={NBAndGrey} alt="mom sitting with baby" className="aboutPhoto"></img>
         </Col> */}
-      </Row>
+      {/* </Row> */}
     </div>
   );
 }
